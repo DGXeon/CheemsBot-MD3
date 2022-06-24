@@ -1626,13 +1626,13 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        XeonBotInc.send5ButImg(m.chat, menulist, XeonBotInc.user.name, global.thumb, btn, global.thumb)
+                        XeonBotInc.send5ButImg(m.chat, menulist, global.botname, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        XeonBotInc.send5ButGif(m.chat, menulist, XeonBotInc.user.name, global.vidmenu, btn, global.thumb)
+                        XeonBotInc.send5ButGif(m.chat, menulist, global.botname, global.vidmenu, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        XeonBotInc.send5ButVid(m.chat, menulist, XeonBotInc.user.name, global.vidmenu, btn, global.thumb)
+                        XeonBotInc.send5ButVid(m.chat, menulist, global.botname, global.vidmenu, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        XeonBotInc.send5ButMsg(m.chat, menulist, XeonBotInc.user.name, btn)
+                        XeonBotInc.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
