@@ -305,28 +305,28 @@ const reply = (teks) => {
             XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
         //auto reply by xeon
-  if (Autoreply)
+  //if (Autoreply) //remove forwad slashes to make it autoreply on off
         for (let anji of setik){
 				if (budy === anji){
 					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
 					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 			for (let anju of vien){
 				if (budy === anju){
 					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
 					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
-			  if (Autoreply)
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
 					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 					for (let anjh of videox){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
