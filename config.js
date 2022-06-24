@@ -1,123 +1,147 @@
-<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩3ꫂ<br></h1>
-<p align="center">
-<img src="https://media.tenor.com/images/e15cb1453a09e25bab41116d930329bf/tenor.gif" alt="animated" width="540" height="280" />
-</p>
+//════════════════════════════//
+//If you want to recode, reupload
+//or copy the codes/script,
+//pls give credit
+//no credit? i will take action immediately
+//© 2022 Xeon Bot Inc. Cheems Bot MD
+//Thank you to Lord Buddha, Family and Myself
+//════════════════════════════//
+//recode kar ke youtube pe upload kar rhe ya
+//codes copy kar ke apne script me dal rhe
+//hai to, description me xeon ka yt channel
+// ka link paste kr dena as a cradit or github 
+//repo me bhi tag kardena baki jo
+//bhi karna hai apki marzi, thank you!🦄
+//════════════════════════════//
+//If you recode and uploading on your channel
+//or copy pasting the codes in ur script, 
+//i give permission to do as long as you
+//put Xeons youtube channel link in the video
+//description and tag me on githuh repo, 
+//thank you🦄
+//════════════════════════════//
 
-<p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
-</p>
+const fs = require("fs")
+const chalk = require("chalk")
 
-<p align="center">
-<a href="https://youtu.be/imFIX-Wrt3s"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
-</p>
+//aumto functioner
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
+global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
+global.autoRecord = false //auto recording (true to on, false to off)
+global.available = true //auto available (true to on, false to off)
 
-------
+//documents variants
+global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+global.doc4 = 'application/zip'
+global.doc5 = 'application/pdf'
+global.doc6 = 'application/vnd.android.package-archive'
 
-# ```Bot Info```
-<p align="center">
-<a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DGXeon?color=red&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DGXeon/CheemsBot-MD3?color=blue&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DGXeon/CheemsBot-MD3?color=red&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DGXeon/CheemsBot-MD3?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3/"><img title="Size" src="https://img.shields.io/github/repo-size/DGXeon/CheemsBot-MD3?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDGXeon%2FCheemsBot-MD3&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
-</p>
-<p align='center'>
-    </p>
+//owmner v card
+global.owner = ['ur number'] //ur owner number
+global.ownername = "ur name"
+global.ytname = "YT: Xeon" //ur yt chanel name
+global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.location = "India, Mizoram, Aizawl" //ur location
 
--------
+//bot bombdy
+global.botname = "ur bot name" //ur bot name
+global.websitex = "https://youtu.be/zpUd6tk1NNA" //ur website
+global.vidmenu = { url: 'https://a.uguu.se/XzaRCsA.mp4' } //gif and video menu
+global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
+global.author = "🦄Dream Guy Xeon"
+global.themeemoji = "🐶"
+global.reactmoji = "😘"
+global.ownertag = ['ur number'] //ur owner tag
+global.ownernummenu = ['ur number'] //ur owner number in menu and all
+global.watermark = "Xeon Bot Inc." //ur watermark
+global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
+global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
+global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
 
-## ```Connect With Me```
-<p align="center">
-<a href="https://wa.me/916909137213"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
-</p>
+//Bot theme media
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
-## ```Donate Me```
+//database
+global.ntilinkytvid = []
+global.ntilinkytch = []
+global.ntilinkig = []
+global.ntilinkfb = []
+global.ntilinktg = []
+global.ntilinktt = []
+global.ntilinktwt = []
+global.ntilinkall = []
+global.nticall = []
+global.ntwame = []
+global.nttoxic = []
+global.ntnsfw = []
+global.ntvirtex = []
+global.rkyt = []
+global.wlcm = []
+global.gcrevoke = []
+global.autorep = []
 
-- [`FamPay`](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg)
+//omther
+global.lolhuman = "KaysaS"
+global.ntilink = ['120363043965529911@g.us','120363022988111568@g.us']
+global.sessionName = "session"
+global.antitags = true
+global.prefa = ['','!','.','🐦','🐤','🗿']
+global.mess = {
+    success: 'Done✓',
+    admin: 'This feature is only for admins!',
+    botAdmin: 'Bot Must Be Admin First!',
+    owner: 'This feature is only for owner',
+    group: 'This feature is only for groups!',
+    private: 'This feature is only for private chats!',
+    bot: 'This feature is only for bot',
+    wait: 'In process...',
+    linkm: 'Where is the link?',
+    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
+    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    banChat: 'The bot was banned in this group, please contact the owner to unban'
+}
+global.limitawal = {
+    premium: "Infinity",
+    free: 2,
+    monayawal: 1000
+}
+   global.rpg = {
+   darahawal: 100,
+   besiawal: 95,
+   goldawal: 30,
+   emeraldawal: 8,
+   umpanawal: 10,
+   potionawal: 5
+}
+global.limitawal = {
+    rakyat: "Infinity",
+    free: 100
+}
+// api website by xenz
+global.APIs = {
+	zenz: 'https://zenzapis.xyz',
+}
 
-<p align="left">
-Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
-</p>
-
-## ```Bot Support Groups```
-
-- [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
-- [`2nd GC`](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
-- [`3rd GC`](https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd)
-
-# Setup For Deployment 👇
-
-- FORK THE REPOSITORY [Here](https://github.com/DGXeon/CheemsBot-MD3/fork)
-
-## `Scan QR Code For Session`
-[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
-
-## `SETTINGS`
-
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.js#L44)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.js#L59)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.js#L58)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.js#L45)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.js#L51)
-
-## ` BUILDPACKS`
-
-```
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-heroku/nodejs
-```
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD3/)
-
-# Install Manually 👇
-## `Requirements`
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
-## `Clone Repo & Installation dependencies`
-```bash
-git clone https://github.com/DGXeon/CheemsBot-MD3.git
-cd CheemsBot-MD3
-
-npm start
-```
-## `For Termux/Ssh/Ubuntu`
-```bash
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/DGXeon/CheemsBot-MD3
-cd CheemsBot-MD
-npm start
-```
-## `For VPS`
-```bash
-apt install nodejs 
-apt install git 
-apt apt install ffmpeg 
-apt apt install libwebp 
-apt apt install imagrmagick
-apt install bash
-git clone https://github.com/DGXeon/CheemsBot-MD3
-cd CheemsBot-MD3
-npm start
-```
-## `For 24/7 Activation (Termux)`
-```bash
-npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-```
+// key
+global.APIKeys = {
+	'https://zenzapis.xyz': 'Your Key',
+}
+//menu logo maker
+global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update'${__filename}'`))
+	delete require.cache[file]
+	require(file)
+})
