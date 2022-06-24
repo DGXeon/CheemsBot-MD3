@@ -1,0 +1,14 @@
+{
+    "name" : "marker",
+    "description" : "A live compiler for markdown files.",
+    "tags" : [ "markdown", "markup", "html" ],
+    "keywords" : [ "markdown", "markup", "html" ],
+    "author" : "Kurtis Schmidt <kurtisschmidt@gmail.com>",
+    "repository" : "git://github.com/kschmidt/marker.git",
+    "homepage" : "https://github.com/kschmidt/marker",
+    "bugs" : { "url" : "http://github.com/kschmidt/marker/issues" },
+    "version" : "0.1.2",
+    "main" : "./lib/marker",
+    "bin" : { "marker" : "./bin/marker" },
+    "dependencies" : { "commander": ">= 0.6.0", "marked": ">= 0.2.4-1" }
+}

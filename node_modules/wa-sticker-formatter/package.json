@@ -1,0 +1,59 @@
+{
+  "name": "wa-sticker-formatter",
+  "version": "3.6.0",
+  "description": "",
+  "main": "lib",
+  "types": "lib",
+  "files": [
+    "lib",
+    "bin",
+    "test"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "doc": "npx typedoc src/**/*.ts",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
+    "test": "node --trace-warnings ./test"
+  },
+  "keywords": [
+    "whatsapp",
+    "stickers",
+    "whatsapp-stickers",
+    "webp"
+  ],
+  "author": {
+    "name": "Alen Yohannan",
+    "email": "alenyohannan71@gmail.com",
+    "url": "https://github.com/Alensaito1"
+  },
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Alensaito1/wa-sticker-formatter"
+  },
+  "issues": "https://github.com/Alensaito1/wa-sticker-formatter",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.16",
+    "@types/fs-extra": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "@types/node": "^14.14.37",
+    "@types/qr-image": "^3.2.3",
+    "eslint": "^7.23.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3",
+    "typedoc": "^0.20.32"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "file-type": "^16.3.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.1.0",
+    "gif-frames": "^1.0.1",
+    "image-size": "^0.9.7",
+    "jimp": "^0.16.1",
+    "mimetypes": "^0.1.1",
+    "streamifier": "^0.1.1"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "imgbb-uploader",
+  "version": "1.5.0",
+  "description": "Lightweight module to upload images through imgBB and other chevereto-based APIs.",
+  "main": "lib/cjs/index.js",
+  "browser": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "dev": "npm run build && npm run format && npm run test && npm run lint",
+    "test": "node src/__tests__/codegen.js && NODE_OPTIONS=--experimental-vm-modules jest --verbose",
+    "testWithoutCodegen": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "build": "node clean.js && node updateExport.js es5 && tsc -p tsconfig-cjs.json && node updateExport.js es6 && tsc -p tsconfig.json",
+    "build:cjs": "node clean.js && tsc -p tsconfig-cjs.json",
+    "build:esm": "node clean.js && tsc -p tsconfig.json",
+    "build:cjs:prod": "tsc -p tsconfig-cjs.json --sourceMap false",
+    "build:esm:prod": "tsc -p tsconfig.json --sourceMap false",
+    "build:prod": "node clean.js && node updateExport.js es5 && npm run build:cjs:prod && node updateExport.js es6 && npm run build:esm:prod",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint --fix .",
+    "clean": "node clean.js",
+    "prepare": "npm run build:prod",
+    "prepublishOnly": "npm run build:prod && npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "pretty-quick": "pretty-quick"
+  },
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.ts"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@babel/types": "^7.11.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "babel-jest": "^28.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "export-helper": "1.0.0",
+    "husky": "^4.2.5",
+    "jest": "^28.1.0",
+    "js-image-generator": "^1.0.3",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.26.3",
+    "tfaker": "^0.1.0",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.7.2",
+    "waifu-generator": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealBarenziah/imgbb-uploader.git"
+  },
+  "keywords": [
+    "imgbb",
+    "imgbb-uploader",
+    "image upload",
+    "picture upload",
+    "chevereto",
+    "chevereto-free",
+    "upload"
+  ],
+  "author": "TheRealBarenziah",
+  "license": "SEE LICENSE IN TARGARYEN_UNLICENSE",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRealBarenziah/imgbb-uploader/issues"
+  },
+  "homepage": "https://github.com/TheRealBarenziah/imgbb-uploader#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "listen",
+  "version": "1.0.1",
+  "description": "Wait for the results of multiple callbacks",
+  "keywords": [
+    "callback",
+    "thenable",
+    "timeout",
+    "async",
+    "flow"
+  ],
+  "author": "Maximilian Antoni (http://maxantoni.de)",
+  "homepage": "http://maxantoni.de/projects/listen.js/",
+  "main": "./lib/listen.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "watch": "mochify --watch",
+    "lint": "jslint --edition=latest --color \"**/*.js\"",
+    "wd": "mochify --wd",
+    "pretest": "npm run lint",
+    "test": "mocha && npm run cover",
+    "cover": "mochify --cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mantoni/listen.js.git"
+  },
+  "devDependencies": {
+    "jslint": "^0.8.1",
+    "mocha": "^2.5.3",
+    "mochify": "^2.18.1",
+    "sinon": "^1.17.5"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "CHANGES.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}

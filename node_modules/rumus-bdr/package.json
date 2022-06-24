@@ -1,0 +1,13 @@
+{
+  "name": "rumus-bdr",
+  "version": "1.0.0",
+  "description": "Sebuah npm untuk mempermudah anda dalam mempelajari sebuah rumus bangun ruang,rumus bangun datar,dan rumus mtk lainnya",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "indonesia","mtk","matematika","javascript","indo","rumus","rumus-mtk","rumus-bdr","js","sadesxd","mathematic","math"],
+  "author": "sadesxd",
+  "license": "ISC"
+}
