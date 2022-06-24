@@ -59,11 +59,11 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config/config.json#L44)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config/config.json#L59)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config/config.json#L58)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config/config.json#L45)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config/config.json#L51)
+- CHANGE OWNER NUMBER VCARD [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.json#L44)
+- CHANGE OWNER NUMBER MENU [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.json#L59)
+- CHANGE OWNER NUMBER TAG [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.json#L58)
+- CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.json#L45)
+- CHANGE BOT NAME [Here](https://github.com/DGXeon/CheemsBot-MD3/blob/master/config.json#L51)
 
 ## ` BUILDPACKS`
 
