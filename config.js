@@ -86,10 +86,10 @@ global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
 global.autorep = []
+global.ntilink = []
 
 //omther
 global.lolhuman = "KaysaS"
-global.ntilink = ['120363043965529911@g.us','120363022988111568@g.us']
 global.sessionName = "session"
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
