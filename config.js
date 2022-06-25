@@ -49,7 +49,7 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bombdy
 global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/zpUd6tk1NNA" //ur website
+global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
 global.author = "🦄Dream Guy Xeon"
