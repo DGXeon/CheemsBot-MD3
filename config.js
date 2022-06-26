@@ -3,7 +3,7 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//© 2022 Maylon Bot Inc. Cheems Bot MY
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
@@ -16,7 +16,7 @@
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put Xeons youtube channel link in the video
+//put Maylon youtube channel link in the video
 //description and tag me on githuh repo, 
 //thank you🦄
 //════════════════════════════//
@@ -41,32 +41,32 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.owner = ['+201119366584'] //ur owner number
+global.ownername = "maylon basha"
+global.ytname = "YT: Maylon" //ur yt chanel name
+global.socialm = "GitHub: Yousefhammed1" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
+global.botname = "bot maylon" //ur bot name
 global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
+global.packname = "MAYLON\n\n\n\n\n\n\n 01119366584 "
+global.author = "🦄Dream Guy Maylon"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
+global.ownertag = ['maylon'] //ur owner tag
+global.ownernummenu = ['+201119366584'] //ur owner number in menu and all
+global.watermark = "maylon Bot Inc." //ur watermark
 global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
-global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
+global.linkz1 = "https://chat.whatsapp.com/IUvbRetbo6K7ESXhAkmlfL"
+global.linkz2 = "https://chat.whatsapp.com/IUvbRetbo6K7ESXhAkmlfL"
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./MaylonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./MaylonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./MaylonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./MaylonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //database
 global.ntilinkytvid = []
@@ -125,7 +125,7 @@ global.limitawal = {
     rakyat: "Infinity",
     free: 100
 }
-// api website by xenz
+// api website by maylon
 global.APIs = {
 	zenz: 'https://zenzapis.xyz',
 }
