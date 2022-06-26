@@ -1,6 +1,4 @@
-<p align="center">
-There is issue in baileys which leads to the bot stop countering messages after 20-30 minutes of deployment on hereoku and then eventually stops the bot from functioning, i apolozise for the inconvenience, please be patient untill the baileys bug is fixed.
-</p>
+
 
 <h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩3ꫂ<br></h1>
 <p align="center">
