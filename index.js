@@ -22,7 +22,7 @@
 //════════════════════════════//
 
 require("./config.js")
-const { default: XeonBotIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: kizukiBotIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const fs = require('fs')
@@ -32,7 +32,7 @@ const path = require('path')
 const CFonts = require('cfonts');
 const { exec, spawn, execSync } = require("child_process")
 const moment = require('moment-timezone')
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('082337962779')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
 const figlet = require('figlet')
@@ -53,8 +53,8 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
         }), 'yellow'))
 console.log(color('\n🐶 YT CHANNEL: Xeon ','silver'))
 console.log(color('🐶 GITHUB: DGXeon ','silver'))
-console.log(color('🐶 WA NUMBER: +916909137213 ','silver'))
-console.log(color('  🦄Xeon Bot Inc. 2022🦄','mediumseagreen'))
+console.log(color('🐶 WA NUMBER: +6282337962779 ','silver'))
+console.log(color('  🦄kizuki-bot. 2022🦄','mediumseagreen'))
     console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
@@ -159,7 +159,7 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
 │「 𝗛𝗶 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
+└┬❖ 「 @${kizuki-bot.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
@@ -181,7 +181,7 @@ mentions: [num],
 fileName: `${metadata.subject}`,
 fileLength: 99999999999999,
 caption: xeonbody,
-footer: `${botname}`,
+footer: `${kizuki-bot}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -203,7 +203,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
+└┬❖ 「 @${kizuki-bot.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
@@ -225,7 +225,7 @@ mentions: [num],
 fileName: `${metadata.subject}`,
 fileLength: 99999999999999,
 caption: xeonbody,
-footer: `${botname}`,
+footer: `${kizuki-bot}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -254,7 +254,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         } else return jid
     }
     
-    XeonBotInc.ev.on('contacts.update', update => {
+    Kizuki-bot.ev.on('contacts.update', update => {
         for (let contact of update) {
             let id = XeonBotInc.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
