@@ -43,9 +43,9 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['08999625005']owner number
 global.ownername = "aldi"
-global.ytname = "YT: Aldi" //ur yt chanel name
+global.ytname = "IG: aldii_260" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "Indonesia" //ur location
+global.location = "India, Mizoram, Aizawal" //ur location
 
 //bot bombdy
 global.botname = "aldi bot" //ur bot name
