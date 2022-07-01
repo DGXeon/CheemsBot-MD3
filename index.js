@@ -51,17 +51,17 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 	    width: 80,
 		whitespaceBreak: true
         }), 'yellow'))
-console.log(color('\n🐶 YT CHANNEL: Xeon ','silver'))
-console.log(color('🐶 GITHUB: DGXeon ','silver'))
-console.log(color('🐶 WA NUMBER: +916909137213 ','silver'))
-console.log(color('  🦄Xeon Bot Inc. 2022🦄','mediumseagreen'))
-    console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
-    console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
-    console.log(color('🐶', 'cyan'), color('https://wa.me/916909137213'))
-    console.log(color('🐶', 'cyan'), color('Cheems Bot Is Online...', 'pink'))
-    console.log(color('🐶', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('🐶','red'), color('Thanks For Using Cheems Bot', 'white'))
+console.log(color('\n🚀 YT CHANNEL: Xeon ','silver'))
+console.log(color('🚀 GITHUB: DGXeon ','silver'))
+console.log(color('🚀 WA NUMBER: +916909137213 ','silver'))
+console.log(color('  🚀Xeon Bot Inc. 2022🚀','mediumseagreen'))
+    console.log(color('🚀','red'), color('I Wrote This Script By Myself!', 'yellow'))
+    console.log(color('🚀','red'), color('Source Code Version: 3.0', 'aqua'))
+    console.log(color('🚀','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
+    console.log(color('🚀', 'cyan'), color('https://wa.me/916909137213'))
+    console.log(color('🚀', 'cyan'), color('Cheems Bot Is Online...', 'pink'))
+    console.log(color('🚀', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
+    console.log(color('🚀','red'), color('Thanks For Using Cheems Bot', 'white'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
@@ -158,9 +158,9 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
+│「 *Hola* 👋🏻 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │✑  *Bienvenido a* 
    │✑  ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
    │✑ ${xmembers}th
@@ -171,7 +171,7 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: ' *Bienvenido al grupo, no te olvides de leer las reglas he!!!* '}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -202,9 +202,9 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+│「 *Adiós* 👋🏻 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
+   │✑  *Estaremos mejor sin tí* 
    │✑ ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
    │✑ ${xeonmembers}th
@@ -215,7 +215,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: '*Estaremos mejor sin tí* 🤘'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
