@@ -41,25 +41,25 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.owner = ['+918416093656'] //ur owner number
+global.ownername = "Herbert"
+global.ytname = "YT: https://youtube.com/c/HBSuantakOfficialChannel" //ur yt chanel name
+global.socialm = "IG Follow: https://www.indtagram.com/herbert_suantak2" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
+global.botname = "HBWABOT" //ur bot name
+global.websitex = "https://herbert70.blogspot.com" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
+global.packname = "HBBot Stickers"
+global.author = "Herbert"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
+global.ownertag = ['+918416093656'] //ur owner tag
+global.ownernummenu = ['+918416093656'] //ur owner number in menu and all
+global.watermark = "Herbert bot Inc." //ur watermark
 global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
+global.linkz1 = "https://chat.whatsapp.com/IgV6un73n0J9TfzyVsaBRA"
 global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
 
 //Bot theme media
