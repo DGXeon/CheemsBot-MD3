@@ -41,26 +41,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['51931263982'] //ur owner number
+global.ownername = "Viggo Tarasov"
+global.ytname = "viggotarasov" //ur yt chanel name
+global.socialm = "Viggotarasov" //ur github or insta name
+global.location = "República de AQP" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
+global.botname = "ROCKET-BOT" //ur bot name
+global.websitex = "https://www.youtube.com" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
-global.themeemoji = "🐶"
-global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
-global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
-global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
+global.packname = "ROCKET🚀.VIGGO😎😈\n\n\n\n\n\n\nTodo lo que alguna vez deseaste está del otro lado del miedo "
+global.author = "VIGGO😎😈"
+global.themeemoji = "🚀"
+global.reactmoji = "🚀"
+global.ownertag = ['522285262918'] //ur owner tag
+global.ownernummenu = ['51931263982'] //ur owner number in menu and all
+global.watermark = "©Ⓥⓘⓖⓖⓞ." //ur watermark
+global.botscript = "https://github.com"
+global.linkz1 = "https://chat.whatsapp.com"
+global.linkz2 = "https://chat.whatsapp.com"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -95,18 +95,18 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature is only for admins!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This feature is only for owner',
-    group: 'This feature is only for groups!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
+    admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
+    botAdmin: '¡CÓMO CARAJOS VOY HACER ESO, SI NO SOY ADMIN🤦🏻‍♂️',
+    owner: '❌ ¡Este comando solo puede usar mi jefe! ❌🏻‍♂️',
+    group: '¡Esta característica es solo para grupos!',
+    private: '¡Esta función es solo para chats privados!',
+    bot: '❌ Solo yo puedo usar esta función',
+    wait: 'Un momento...',
     linkm: 'Where is the link?',
-    error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    error: '¡Error! Tal vez la clave Api haya expirado🤔!',
+    ban: 'Has sido baneado por el BOT, si quieres que no te baneen, chatea con el dueño',
+    nsfw: 'La función nsfw no se ha activado PAJERO‼️, comuníquese con el administrador para activarla',
+    banChat: 'El bot fue apagado en este grupo, comuníquese con el propietario para reiniciar'
 }
 global.limitawal = {
     premium: "Infinity",
