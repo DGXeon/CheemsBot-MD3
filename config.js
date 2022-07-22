@@ -25,7 +25,7 @@ const fs = require("fs")
 const chalk = require("chalk")
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
@@ -42,17 +42,17 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
+global.ownername = "JAYASINGHE"
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
+global.botname = "Jayasinghes bot" //ur bot name
 global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
+global.author = "🦄°★彡_Ꭻ𝐚𝐲𝐚𝐬𝐢𝐧𝐠𝐡𝐚_彡★°"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
 global.ownertag = ['ur number'] //ur owner tag
@@ -101,7 +101,7 @@ global.mess = {
     group: 'This feature is only for groups!',
     private: 'This feature is only for private chats!',
     bot: 'This feature is only for bot',
-    wait: 'In process...',
+    wait: 'ඉන්න ටිකක්🙂...',
     linkm: 'Where is the link?',
     error: 'Error!',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
