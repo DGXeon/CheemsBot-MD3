@@ -41,26 +41,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['96171350883'] //ur owner number
+global.ownername = "Zora"
+global.ytname = "YT: Veo Edtz" //ur yt chanel name
+global.socialm = "GitHub: Zora3mm" //ur github or insta name
+global.location = "Lebanon,Tyre,..." //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
+global.botname = "Zora-Bot" //ur bot name
+global.websitex = "https://youtube.com/@VEOEDITING" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
-global.themeemoji = "🐶"
-global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
-global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
-global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
+global.packname = "Zora"
+global.author = "Zora"
+global.themeemoji = "🐧"
+global.reactmoji = "🗿"
+global.ownertag = ['96171350883'] //ur owner tag
+global.ownernummenu = ['96171350883'] //ur owner number in menu and all
+global.watermark = "Zora." //ur watermark
+global.botscript = "https://github.com/Zora3mk/CheemsBot-MD3"
+global.linkz1 = "https://chat.whatsapp.com/EX2OzYLpfXg5hbaQS7GUI0"
+global.linkz2 = "https://chat.whatsapp.com/EX2OzYLpfXg5hbaQS7GUI0"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -89,10 +89,10 @@ global.autorep = []
 global.ntilink = []
 
 //omther
-global.lolhuman = "KaysaS"
+global.lolhuman = "Zora"
 global.sessionName = "session"
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['-','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Done✓',
     admin: 'This feature is only for admins!',
